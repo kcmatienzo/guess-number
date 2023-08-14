@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Silkscreen", cursive;
+  display: block;
+}
+
+body {
+  background-color: #fff0e5;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.resetBtn {
+  background-color: #3a10e5;
+  width: 5rem;
+  max-height: 10%;
+  text-align: center;
+  color: white;
+}
+
+.outputNumberBox {
+  border: 1px solid;
+  border-color: #10162f;
+  width: 400px;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputNumberBox {
+  position: relative;
+  text-align: right;
+  margin: 5rem;
+  border-color: #10162f;
+}
+
+.inputNumberText {
+  background-color: #fff0e5;
+}
+
+@media (max-width: 992px) {
+  #resetBtn {
+    text-align: center;
+  }
+}
