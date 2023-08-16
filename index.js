@@ -32,7 +32,7 @@ document.querySelector(".check").addEventListener("click", function () {
       messageDisplay("🎉 You guessed it right!");
     }
     document.querySelector(".highscore").innerText = highscore;
-    document.querySelector(".outputNumberText").innerHTML = input_number;
+    document.querySelector(".outputNumberText").innerHTML = random_number;
     document.querySelector(".check").disabled = true;
   }
   console.log("Score: " + score);
@@ -46,8 +46,8 @@ let reset_btn = document
   .querySelector(".resetBtn")
   .addEventListener("click", function () {
     score = 20;
-    messageDisplay("Start guessing...");
     random_number = Math.trunc(Math.random() * 20) + 1;
+    messageDisplay("Start guessing...");
     document.querySelector(".check").disabled = false;
     document.querySelector(".score").innerText = score;
     document.querySelector(".outputNumberText").innerHTML = "?";
@@ -60,7 +60,7 @@ let reset_btn = document
 
 /* NEEDS TO BE DONE NEXT:
 1. Add functionality on RESET button - done
-2. Fix css
+2. Fix css - done
 3. Add accessibility 
 4. Refactor code! 
 5. Fix correct guess number display - done
