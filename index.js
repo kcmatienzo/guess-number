@@ -31,6 +31,7 @@ document.querySelector(".check").addEventListener("click", function () {
     } else {
       messageDisplay("🎉 You guessed it right!");
     }
+    document.querySelector("body").style.backgroundColor = "#AEE938";
     document.querySelector(".highscore").innerText = highscore;
     document.querySelector(".outputNumberText").innerHTML = random_number;
     document.querySelector(".check").disabled = true;
@@ -51,6 +52,7 @@ let reset_btn = document
     document.querySelector(".check").disabled = false;
     document.querySelector(".score").innerText = score;
     document.querySelector(".outputNumberText").innerHTML = "?";
+    document.querySelector("body").style.backgroundColor = "#fff0e5";
     console.log("New random number: " + random_number);
   });
 

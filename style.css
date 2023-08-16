@@ -44,7 +44,7 @@ main {
 
 .right {
   width: 52rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* ELEMENTS STYLE */
@@ -88,7 +88,7 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #008a27;
+  background-color: #3a10e5;
   color: #eee;
   font-size: 3rem;
   font-family: inherit;
@@ -97,7 +97,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #7faf1e;
+  background-color: #5533ff;
 }
 
 .inputNumberText {
